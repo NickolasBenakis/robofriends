@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CardList from './CardList.js';
 import SearchBox from './searchBox.jsx';
 import './App.css';
-
+import Scroll from './Scroll.jsx';
 
 
 export default class App extends Component {
@@ -13,8 +13,8 @@ export default class App extends Component {
             robots: [],
             searchField: ''
         };
-
     }
+
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
@@ -33,9 +33,10 @@ export default class App extends Component {
             return (
                 <div className="App">
                     <h1 className="f2">RoboFriends</h1>
-                    <hr />
                     <SearchBox searchChange={this.onSearchChange} />
-                    <CardList robots={filteredRobots} />
+                    <Scroll>
+                        <CardList robots={filteredRobots} />
+                    </Scroll>
                 </div>
             );
         }
