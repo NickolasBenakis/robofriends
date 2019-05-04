@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Viafont Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Viafont Regular'), url('./fonts/Viafont.woff') format('woff');
+}
+
+h1 {
+    font-family: Viafont Regular;
+}
+
 .App {
     text-align: center;
 }
