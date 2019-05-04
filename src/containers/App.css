@@ -2,7 +2,7 @@
     font-family: 'Viafont Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Viafont Regular'), url('./fonts/Viafont.woff') format('woff');
+    src: local('Viafont Regular'), url('../fonts/Viafont.woff') format('woff');
 }
 
 h1 {
