@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import CardList from '../components/CardList.js';
+import CardList from '../components/CardList.jsx';
 import SearchBox from '../components/searchBox.jsx';
 import './App.css';
 import Scroll from '../components/Scroll.jsx';
