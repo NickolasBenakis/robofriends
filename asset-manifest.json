@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/NickolasBenakis/robofriends/tree/gh-pages/static/css/main.cc2fbca6.chunk.css",
-    "main.js": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/main.4481c1b9.chunk.js",
-    "main.js.map": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/main.4481c1b9.chunk.js.map",
-    "runtime~main.js": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/runtime~main.e1c4e14c.js",
-    "runtime~main.js.map": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/runtime~main.e1c4e14c.js.map",
-    "static/js/2.4e3dadb4.chunk.js": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/2.4e3dadb4.chunk.js",
-    "static/js/2.4e3dadb4.chunk.js.map": "/NickolasBenakis/robofriends/tree/gh-pages/static/js/2.4e3dadb4.chunk.js.map",
-    "index.html": "/NickolasBenakis/robofriends/tree/gh-pages/index.html",
-    "precache-manifest.47fde69fb965b5d98c742831de97c864.js": "/NickolasBenakis/robofriends/tree/gh-pages/precache-manifest.47fde69fb965b5d98c742831de97c864.js",
-    "service-worker.js": "/NickolasBenakis/robofriends/tree/gh-pages/service-worker.js",
-    "static/css/main.cc2fbca6.chunk.css.map": "/NickolasBenakis/robofriends/tree/gh-pages/static/css/main.cc2fbca6.chunk.css.map",
-    "static/media/App.css": "/NickolasBenakis/robofriends/tree/gh-pages/static/media/Viafont.a64ed299.woff"
+    "main.css": "/robofriends/static/css/main.ac119966.chunk.css",
+    "main.js": "/robofriends/static/js/main.af4dee3b.chunk.js",
+    "main.js.map": "/robofriends/static/js/main.af4dee3b.chunk.js.map",
+    "runtime~main.js": "/robofriends/static/js/runtime~main.fb41d28d.js",
+    "runtime~main.js.map": "/robofriends/static/js/runtime~main.fb41d28d.js.map",
+    "static/js/2.4e3dadb4.chunk.js": "/robofriends/static/js/2.4e3dadb4.chunk.js",
+    "static/js/2.4e3dadb4.chunk.js.map": "/robofriends/static/js/2.4e3dadb4.chunk.js.map",
+    "index.html": "/robofriends/index.html",
+    "precache-manifest.0e3729bda8a06b146d4b8d35cd773e62.js": "/robofriends/precache-manifest.0e3729bda8a06b146d4b8d35cd773e62.js",
+    "service-worker.js": "/robofriends/service-worker.js",
+    "static/css/main.ac119966.chunk.css.map": "/robofriends/static/css/main.ac119966.chunk.css.map",
+    "static/media/App.css": "/robofriends/static/media/Viafont.a64ed299.woff"
   }
 }
