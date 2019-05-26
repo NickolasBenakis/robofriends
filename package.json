@@ -1,5 +1,6 @@
 {
   "name": "robofriends",
+  "homepage": "http://nickolasbenakis.github.io/robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,8 @@
     "why-did-you-update": "^1.0.6"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-redux": "^7.0.3",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
