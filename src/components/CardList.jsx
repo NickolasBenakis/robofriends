@@ -1,8 +1,7 @@
 import React from 'react';
-// import './cardList.css';
 import Card from './Card';
 
-export default function CardList({ robots }) {
+const CardList = ({ robots }) => {
 
   return (
     <div>
@@ -14,4 +13,4 @@ export default function CardList({ robots }) {
     </div>
   );
 }
-
+export default CardList;
