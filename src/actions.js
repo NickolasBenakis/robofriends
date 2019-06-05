@@ -4,15 +4,9 @@ import {
     REQUEST_ROBOTS_REJECT,
     REQUEST_ROBOTS_RESOLVED
 } from './constants.js';
-import fetchRobots from './api/fetchRobots'
+import { fetchRobots } from './api/fetchRobots'
 
-export const setSearchField = (text) => {
-    console.log(text);
-    return {
-        type: CHANGE_SEARCH_FIELD,
-        payload: text
-    }
-}
+export const setSearchField = (text) => ({ type: CHANGE_SEARCH_FIELD, payload: text });
 
 export const requestRobots = () => (dispatch) => {
     dispatch({ type: REQUEST_ROBOTS_PENDING });
