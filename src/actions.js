@@ -4,6 +4,7 @@ import {
     REQUEST_ROBOTS_REJECT,
     REQUEST_ROBOTS_RESOLVED
 } from './constants.js';
+import fetchRobots from './api/fetchRobots'
 
 export const setSearchField = (text) => {
     console.log(text);
@@ -15,8 +16,8 @@ export const setSearchField = (text) => {
 
 export const requestRobots = () => (dispatch) => {
     dispatch({ type: REQUEST_ROBOTS_PENDING });
-    fetch('https://jsonplaceholder.typicode.com/users')
-        .then(res => res.json())
+    fetchRobots('https://jsonplaceholder.typicode.com/users')
         .then(data => dispatch({ type: REQUEST_ROBOTS_RESOLVED, payload: data }))
         .catch(error => dispatch({ type: REQUEST_ROBOTS_REJECT, payload: error }))
+
 }
